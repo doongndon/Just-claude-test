@@ -1,0 +1,14 @@
+; Engine configuration file.
+; run/main_scene is intentionally unset: no scene exists yet. /dev-story or the
+; developer sets it once the first scene is created.
+
+config_version=5
+
+[application]
+
+config/name="Octoku"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
